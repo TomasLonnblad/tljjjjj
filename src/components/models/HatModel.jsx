@@ -20,17 +20,17 @@ const HatModel = React.memo(function HatModel(props) {
       {...props}
       dispose={null}
       ref={modelRef}
-      scale={[1.8, 1.8, 1.8]}
+      scale={[3, 2.5, 5]}
       rotation={[0.4, -1, 0]}
-      position={[0, 0, 0]}
+      position={[0, 9, 3]}
     >
       <mesh
         castShadow
         receiveShadow
         geometry={nodes.Object_2.geometry}
         material={materials.initialShadingGroup}
-        position={[0, -3.867, 0]}
-        rotation={[-Math.PI / 2, 0, 0]}
+        position={[0.0, -3.867, 0.2]}
+        rotation={[-Math.PI / 15, 0, 0]}
       />
     </group>
   );
